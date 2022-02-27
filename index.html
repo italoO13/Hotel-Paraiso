@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+<title>Hotel Paraíso</title>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="img-wrap">
+                <a href="#"><img src="/imagens/logo.png" alt="hotel"></a>
+            </div>
+            <div class="hamburguer">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+            </div>
+
+            <nav>
+                    <a href="#">Home</a>
+                    <a href="">Sobre</a>
+                    <a href="">Reserva</a>
+                    <a href="">Contato</a>
+
+            </nav>    
+        </div>
+    </header>
+    
+                <!-- <div class="menu-lateral">
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">Sobre</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">Reserva</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div> -->
+        
+    <main class="container-geral">
+        <section class="hero">
+            <div class="img-hero">
+                <img src="/imagens/hero.jpg" alt="">
+
+            </div>
+            <div class="conteudo-hero">
+                <h1>Conheça esse paraíso chamado Itacaré</h1>
+                <h3>"Aconchego, conforto, simpatia e alto astral"</h3>
+                <a href="#" class="btn btn-hero">Saiba mais</a>
+            </div>
+
+        </section>
+
+        <section class="know-the-hotel">
+            <div class="titulo-know-the-hotel">
+                <h3>Conheça o <span>Hotel Paraíso</span></h3>
+                <hr>
+            </div>
+            <p>Feche os olhos e imagine paraíso. Um lugar no meio da Mata Atlântica e banhado pelo mar, onde você encontra paz, tranquilidade, conforto e comodidade.</p>
+
+            <ul class="grid">
+              <li class="small" style="background-image: url('imagens/itacare-01.jpg')"></li>
+              <li class="large" style="background-image: url('imagens/itacare-02.jpg')"></li>
+              <li class="large" style="background-image: url('imagens/itacare-03.jpg')"></li>
+              <li class="small" style="background-image: url('imagens/itacare-04.jpg')"></li>
+            </ul>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/imagens/itacare-01.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/imagens/itacare-02.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/imagens/itacare-03.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+
+        <section class="features">
+            <div class="titulo-features">
+                <h3><span>Único hotel </span>pé na areia de Itacaré</h3>
+                <hr>
+            </div>
+            <p>Implantado em uma área completamente arborizada, o Hotel Paraíso é o único hotel pé na areia de Itacaré. Aqui o Mar será o seu companheiro e você terá as belezas da natureza como guia.</p>
+        
+        
+            <ul class="grid-features">
+                <li>
+                    <i class="fas fa-location-arrow"></i>
+                    <h4>Localização</h4>
+                    <p>Localizada no sul da Bahia, entre o mar e a Mata Atlântica, Itacaré tem refrescantes cachoeiras e praias belíssimas, muitas delas tão pequenas que nem aparecem nos mapas.</p>
+                </li>
+                <li>
+                    <i class="fas fa-gift"></i>
+                    <h4>Pacotes e Ofertas</h4>
+                    <p>Sabe aquele descontraído encontro com a família e amigos? Ou um momento relax? Nossa estrutura conta com uma diversidade de espaços que proporcionam momentos inesquecíveis.</p>
+                </li>
+                <li>
+                    <i class="fas fa-home"></i>
+                    <h4>Acomodações</h4>
+                    <p>Hotel Paraíso possui 29 unidades, divididas entre 11 chalés, 16 amplas suítes e 2 chalés familiar, todas com TV a cabo, frigobar, além de varanda com rede.</p>
+                </li>
+
+
+            </ul>
+
+        </section>
+
+        <section class="newsletter">
+            <h3>Newsletter</h3>
+            <p>Assine nossa newsletter para se manter atualizado com nossos serviços.</p>
+            <form>
+                <input type="email" name="" id="email" placeholder="Email" >
+                <button class="btn-news">Cadastrar</button>
+            </form>
+
+
+        </section>
+
+        <footer>
+            <ul>
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-snapchat"></i></li>
+                <li><i class="fab fa-pinterest"></i></li>
+            </ul>
+            <p>Todos os direitos reservados - Hotel Paraíso 2022</p>
+
+        </footer>
+
+
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
